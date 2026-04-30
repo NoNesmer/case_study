@@ -1,0 +1,23 @@
+[
+  {
+    "tier": "5 ms (real-time chat / streaming)",
+    "budget_ms": 5.0,
+    "model": "BiLSTM-char-int8",
+    "f1": 0.8536822562107683,
+    "p50_ms": 3.1413000251632184
+  },
+  {
+    "tier": "10 ms (real-time tagging in API hot path)",
+    "budget_ms": 10.0,
+    "model": "BiLSTM-char-int8",
+    "f1": 0.8536822562107683,
+    "p50_ms": 3.1413000251632184
+  },
+  {
+    "tier": "50 ms (batch / serverless)",
+    "budget_ms": 50.0,
+    "model": "BiLSTM-char-int8",
+    "f1": 0.8536822562107683,
+    "p50_ms": 3.1413000251632184
+  }
+]
